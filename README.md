@@ -5,10 +5,11 @@
 This project is a Job Application API built using Spring Boot. It allows users to perform CRUD operations (Create, Read, Update, Delete) on job applications, with data stored in an H2 database. The API endpoints can be tested using tools like Postman.
 
 ## Features
-- Create job applications
-- Retrieve job applications
-- Update job applications
-- Delete job applications
+- Create job
+- Get All jobs 
+- Retrieve job by ID
+- Update job 
+- Delete job by ID
 
 ## Prerequisites
 - Java JDK 8 or higher installed
