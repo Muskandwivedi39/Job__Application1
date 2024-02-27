@@ -68,7 +68,7 @@ You can test the API endpoints using a tool like Postman.
    - ![Screenshot 2024-02-27 122208](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/013dfbb8-42a9-471d-abd9-6e3582ee7298)
 
 
-3. *Retrieve a specific job application by ID*:
+ 3. *Retrieve a specific job application by ID*:
    
    - Select the GET method in Postman.
    - Enter the request URL with a specific job application ID: http://localhost:8080/jobs/{id}
@@ -77,7 +77,7 @@ You can test the API endpoints using a tool like Postman.
    - ![Screenshot 2024-02-24 125300](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/a20827c7-95c7-4d0d-a270-79556d08251c)
 
 
-5. *Update a job application*:
+ 4. *Update a job application*:
    - Select the PUT method in Postman.
    - Enter the request URL with the ID of the job application you want to update: http://localhost:8080/jobs/{id}
    - Replace {id} with the actual ID of the job application.
@@ -86,7 +86,7 @@ You can test the API endpoints using a tool like Postman.
    - ![Screenshot 2024-02-24 125655](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/cb81a004-b614-48fc-be40-8b8edae3aa71)
 
 
-6. *Delete a job application*:
+ 5. *Delete a job application*:
    
    - Select the DELETE method in Postman.
    - Enter the request URL with the ID of the job application you want to delete: http://localhost:8080/jobs/{id}
@@ -95,6 +95,6 @@ You can test the API endpoints using a tool like Postman.
    - ![Screenshot 2024-02-24 125425](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/d84997b5-0838-403e-a66b-c19d4108f21e)
    - ## H2 Database
    
- 8. *Database Storing for Job data*:
+  6. *Database Storing for Job data*:
 
    - ![Screenshot 2024-02-24 125444](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/c946922e-d226-4535-8201-749f391c4ad6)
