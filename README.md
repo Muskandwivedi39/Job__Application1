@@ -41,15 +41,15 @@ You can test the API endpoints using a tool like Postman.
    - Open Postman and select the POST method.
    - Enter the request URL: http://localhost:8080/jobs
    - In the request body, provide JSON data for the job application, such as:
-     json
-     {
-        "id":1,
-      	"title": "Software Engineer Needed 12",
-      	"description": "Test Description",
-      	"minSalary": "30000",
-      	"maxSalary": "40000",
-      	"location": "New Jersy"
-     }
+   -  json
+   -  {
+      - "id":1,
+      -	"title": "Software Engineer Needed 12",
+      -	"description": "Test Description",
+      -	"minSalary": "30000",
+      -	"maxSalary": "40000",
+      -	"location": "New Jersy"
+   -  }
      
    - Send the request and verify that you receive a successful response with the newly created job application data.
 
