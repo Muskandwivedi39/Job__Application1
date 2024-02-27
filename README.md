@@ -22,8 +22,8 @@ This project is a Job Application API built using Spring Boot. It allows users t
 ## Technologies Used
 - Spring Boot
 - H2 Database
-- Maven (or Gradle) for dependency management
-- JUnit for testing
+- Maven for dependency management
+- API for testing
 
 ## Usage
 - Base URL: http://localhost:8080
@@ -64,7 +64,7 @@ You can test the API endpoints using a tool like Postman.
    - Select the GET method in Postman.
    - Enter the request URL: http://localhost:8080/jobs
    - Send the request and verify that you receive a list of all job applications stored in the database.
-    - ![Screenshot 2024-02-27 122208](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/013dfbb8-42a9-471d-abd9-6e3582ee7298)
+   - ![Screenshot 2024-02-27 122208](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/013dfbb8-42a9-471d-abd9-6e3582ee7298)
 
 
 3. *Retrieve a specific job application by ID*:
@@ -91,7 +91,7 @@ You can test the API endpoints using a tool like Postman.
    - Send the request and verify that you receive a successful response indicating that the job application has been deleted.
    - ![Screenshot 2024-02-24 125425](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/d84997b5-0838-403e-a66b-c19d4108f21e)
    - ## H2 Database
-   - 
+   -
  6. *Database Storing for Job data*:
 
-    - ![Screenshot 2024-02-24 125444](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/c946922e-d226-4535-8201-749f391c4ad6)
+   - ![Screenshot 2024-02-24 125444](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/c946922e-d226-4535-8201-749f391c4ad6)
