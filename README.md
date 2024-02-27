@@ -37,4 +37,42 @@ This project is a Job Application API built using Spring Boot. It allows users t
 
 ## Testing
 You can test the API endpoints using a tool like Postman.
+1. *Create a new job application*:
+   - Open Postman and select the POST method.
+   - Enter the request URL: http://localhost:8080/jobs
+   - In the request body, provide JSON data for the job application, such as:
+     json
+     {
+        "id":1,
+      	"title": "Software Engineer Needed 12",
+      	"description": "Test Description",
+      	"minSalary": "30000",
+      	"maxSalary": "40000",
+      	"location": "New Jersy"
+     }
+     
+   - Send the request and verify that you receive a successful response with the newly created job application data.
 
+2. *Retrieve all job applications*:
+   - Select the GET method in Postman.
+   - Enter the request URL: http://localhost:8080/jobs
+   - Send the request and verify that you receive a list of all job applications stored in the database.
+
+3. *Retrieve a specific job application by ID*:
+   - Select the GET method in Postman.
+   - Enter the request URL with a specific job application ID: http://localhost:8080/jobs/{id}
+   - Replace {id} with the actual ID of a job application.
+   - Send the request and verify that you receive the details of the specified job application.
+
+4. *Update a job application*:
+   - Select the PUT method in Postman.
+   - Enter the request URL with the ID of the job application you want to update: http://localhost:8080/jobs/{id}
+   - Replace {id} with the actual ID of the job application.
+   - In the request body, provide the updated JSON data for the job application.
+   - Send the request and verify that you receive a successful response with the updated job application data.
+
+5. *Delete a job application*:
+   - Select the DELETE method in Postman.
+   - Enter the request URL with the ID of the job application you want to delete: http://localhost:8080/jobs/{id}
+   - Replace {id} with the actual ID of the job application.
+   - Send the request and verify that you receive a successful response indicating that the job application has been deleted.
