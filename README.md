@@ -90,3 +90,6 @@ You can test the API endpoints using a tool like Postman.
    - Replace {id} with the actual ID of the job application.
    - Send the request and verify that you receive a successful response indicating that the job application has been deleted.
    - ![Screenshot 2024-02-24 125425](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/d84997b5-0838-403e-a66b-c19d4108f21e)
+   - ## H2 Database
+ 6. *Database Storing for Job data*:
+   - 
