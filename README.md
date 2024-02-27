@@ -37,7 +37,7 @@ This project is a Job Application API built using Spring Boot. It allows users t
 
 ## Testing
 You can test the API endpoints using a tool like Postman.
-1. *Create a new job application*:
+ *Create a new job application*:
    - Open Postman and select the POST method.
    - Enter the request URL: http://localhost:8080/jobs
    - In the request body, provide JSON data for the job application, such as:
@@ -50,8 +50,17 @@ You can test the API endpoints using a tool like Postman.
       -	"maxSalary": "40000",
       -	"location": "New Jersy"
    -  }
-     
+    2. *Post job applications*:
+   - Select the POST method in Postman.
+   - Enter the request URL: http://localhost:8080/jobs
+   - Send the request and verify that you post a list of all job applications stored in the database.
    - Send the request and verify that you receive a successful response with the newly created job application data.
+   - ![Alt Text]("C:\Users\muska\OneDrive\Pictures\Screenshots\Screenshot 2024-02-27 113614.png")
+   - 
+   - 2. *Retrieve all job applications*:
+   - Select the GET method in Postman.
+   - Enter the request URL: http://localhost:8080/jobs
+   - Send the request and verify that you receive a list of all job applications stored in the database.
 
 2. *Retrieve all job applications*:
    - Select the GET method in Postman.
