@@ -40,8 +40,7 @@ You can test the API endpoints using a tool like Postman.
  *Create a new job application*:
    - Open Postman and select the POST method.
    - Enter the request URL: http://localhost:8080/jobs
-   - In the request body, provide JSON data for the job application, such as:
-   -  json
+   - In the request body, provide JSON data for the job application, such as:  json
    -  {
       - "id":1,
       -	"title": "Software Engineer Needed 12",
@@ -50,6 +49,7 @@ You can test the API endpoints using a tool like Postman.
       -	"maxSalary": "40000",
       -	"location": "New Jersy"
    -  }
+     
  1 . *Post job applications*:
         
    - Select the POST method in Postman.
@@ -91,5 +91,7 @@ You can test the API endpoints using a tool like Postman.
    - Send the request and verify that you receive a successful response indicating that the job application has been deleted.
    - ![Screenshot 2024-02-24 125425](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/d84997b5-0838-403e-a66b-c19d4108f21e)
    - ## H2 Database
+   - 
  6. *Database Storing for Job data*:
-   - ![Screenshot 2024-02-24 125444](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/c946922e-d226-4535-8201-749f391c4ad6)
+
+    - ![Screenshot 2024-02-24 125444](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/c946922e-d226-4535-8201-749f391c4ad6)
