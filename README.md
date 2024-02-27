@@ -11,13 +11,13 @@ This project is a Job Application API built using Spring Boot. It allows users t
 - Delete job applications
 
 ## Prerequisites
--Java JDK 8 or higher installed
--Maven installed
--Postman or any API testing tool
--Running the Application
--Clone this repository to your local machine.
--Navigate to the project directory.
--Run the following command to start the application:
+- Java JDK 8 or higher installed
+- Maven installed
+- Postman or any API testing tool
+- Running the Application
+- Clone this repository to your local machine.
+- Navigate to the project directory.
+- Run the following command to start the application:
 
 ## Technologies Used
 - Spring Boot
