@@ -56,14 +56,14 @@ You can test the API endpoints using a tool like Postman.
    - Enter the request URL: http://localhost:8080/jobs
    - Send the request and verify that you post a list of all job applications stored in the database.
    - Send the request and verify that you receive a successful response with the newly created job application data.
-   - ![Post](https://github.com/Muskandwivedi39/Job__Application1/issues/1#issue-2155783091)
+   - ![Screenshot 2024-02-24 113614](https://github.com/Muskandwivedi39/Job__Application1/issues/1#issue-2155783091)
 
      
  2. *Retrieve all job applications*:
    - Select the GET method in Postman.
    - Enter the request URL: http://localhost:8080/jobs
    - Send the request and verify that you receive a list of all job applications stored in the database.
-   - ![All Get](https://github.com/Muskandwivedi39/Job__Application1/issues/2#issue-2155808478)
+   - ![Screenshot 2024-02-24 122208](https://github.com/Muskandwivedi39/Job__Application1/issues/2#issue-2155808478)
 
 3. *Retrieve a specific job application by ID*:
    - Select the GET method in Postman.
