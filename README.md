@@ -81,6 +81,8 @@ You can test the API endpoints using a tool like Postman.
    - Replace {id} with the actual ID of the job application.
    - In the request body, provide the updated JSON data for the job application.
    - Send the request and verify that you receive a successful response with the updated job application data.
+   - ![Screenshot 2024-02-24 125655](https://github.com/Muskandwivedi39/Job__Application1/assets/114982533/cb81a004-b614-48fc-be40-8b8edae3aa71)
+
 
 5. *Delete a job application*:
    - Select the DELETE method in Postman.
